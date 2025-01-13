@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&family=Roboto:ital,wght@0,100;0,400;1,100;1,400&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins",sans-serif;
+}
+
+
+html{
+  scroll-behavior: smooth;
+  transition: all 0.9s ease-in-out;
+}
+body{
+  margin: 0px ;
+  padding: 0;
+  font-family: "Montserrat",sans-serif;
+}
+
+
+/* scrollar */
+/* "width" */
+::-webkit-scrollbar{
+  width: 4px;
+  height: 80px;
+}
+/* "track" */
+::-webkit-scrollbar-track{
+  background-color: rgb(28, 24, 32);
+}
+/* "thumb" */
+::-webkit-scrollbar-thumb{
+  background-color: rgb(4, 97, 158);
+}
+
+/* "hover on thumb" */
+::-webkit-scrollbar-thumb{
+  background-color: blue;
+}
